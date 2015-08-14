@@ -1,10 +1,13 @@
 PODS:
+  - GoogleMaps (1.10.1)
   - iOS-Slide-Menu (1.4.5)
 
 DEPENDENCIES:
+  - GoogleMaps
   - iOS-Slide-Menu (= 1.4.5)
 
 SPEC CHECKSUMS:
+  GoogleMaps: ebf08677f181d9c2dcdbd1721d206f02beccc9b1
   iOS-Slide-Menu: 8f4b77cd2e153275e0e7d5b9cfe94f2abc7e0594
 
 COCOAPODS: 0.38.2

@@ -19,6 +19,7 @@
 		861C9A8A1B7888FE00479DD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861C9A891B7888FE00479DD5 /* Images.xcassets */; };
 		861C9A8D1B7888FE00479DD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 861C9A8B1B7888FE00479DD5 /* LaunchScreen.xib */; };
 		861C9A991B7888FE00479DD5 /* testProgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C9A981B7888FE00479DD5 /* testProgTests.m */; };
+		86B3D5051B7CA22A00CA868F /* GoogleMapsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B3D5041B7CA22A00CA868F /* GoogleMapsApi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		861C9A921B7888FE00479DD5 /* testProgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861C9A971B7888FE00479DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		861C9A981B7888FE00479DD5 /* testProgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProgTests.m; sourceTree = "<group>"; };
+		86B3D5031B7CA22A00CA868F /* GoogleMapsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsApi.h; sourceTree = "<group>"; };
+		86B3D5041B7CA22A00CA868F /* GoogleMapsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsApi.m; sourceTree = "<group>"; };
 		C2D2BD2BB7F26E2E2B9A0DAF /* Pods-testProg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testProg.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testProg/Pods-testProg.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +131,8 @@
 				861C9A791B7888FE00479DD5 /* Supporting Files */,
 				86076B831B7B5EA400A015D3 /* HomeViewController.h */,
 				86076B841B7B5EA400A015D3 /* HomeViewController.m */,
+				86B3D5031B7CA22A00CA868F /* GoogleMapsApi.h */,
+				86B3D5041B7CA22A00CA868F /* GoogleMapsApi.m */,
 			);
 			path = testProg;
 			sourceTree = "<group>";
@@ -307,6 +312,7 @@
 				861C9A7C1B7888FE00479DD5 /* main.m in Sources */,
 				86076B821B7B3AE100A015D3 /* LeftMenuViewViewController.m in Sources */,
 				861C9A851B7888FE00479DD5 /* ViewController.m in Sources */,
+				86B3D5051B7CA22A00CA868F /* GoogleMapsApi.m in Sources */,
 				861C9A821B7888FE00479DD5 /* testProg.xcdatamodeld in Sources */,
 				86076B851B7B5EA400A015D3 /* HomeViewController.m in Sources */,
 			);

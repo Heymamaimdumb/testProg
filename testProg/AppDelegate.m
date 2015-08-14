@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <UIKit/UIKit.h>
 #import "LeftMenuViewViewController.h"
+@import GoogleMaps;
 
 @interface AppDelegate ()
 
@@ -47,7 +48,7 @@
         NSLog(@"Revealed %@", menu);
     }];
     
-    
+    [GMSServices provideAPIKey:@"AIzaSyA-ysw10j6ww9rUq2bdEUotnVId422w38A"];
     
     return YES;
 }

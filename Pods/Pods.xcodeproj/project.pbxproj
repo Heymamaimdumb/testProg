@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA68ABF0A6E5640ACD8D95E840AAF5CE /* PBXContainerItemProxy */ = {
+		F0F204151DCA3564861B956309C94557 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -41,6 +41,7 @@
 		00F11872AB9DCC5C3CDFB332FCE8108E /* Pods-testProg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testProg.debug.xcconfig"; sourceTree = "<group>"; };
 		03A55BDC75FAF27CE4E251C1FEB462F8 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScale.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
 		0BD88315BA4B5C5A56D53ADEF172C90E /* Pods-testProg-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testProg-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B4B1EBC714A5A77F0E96D07BED8305A /* iOS-Slide-Menu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Slide-Menu-prefix.pch"; sourceTree = "<group>"; };
 		21AE23780DB67414D117C72E5F9612C3 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
 		23777734F2D09122396C43E872586572 /* libPods-testProg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testProg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B5B252CD8AB0DEFC3F1EBFFFBCE83BB /* SlideNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = SlideMenu/Source/SlideNavigationController.m; sourceTree = "<group>"; };
@@ -48,26 +49,27 @@
 		38AE939E7D142367DE56162C3810E6CC /* Pods-testProg-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testProg-resources.sh"; sourceTree = "<group>"; };
 		3BBF0E62F6723E615327BB5FCF1B0F95 /* libiOS-Slide-Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-Slide-Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		471F5FD0CC966FCF4D3FE8D543DF8CE8 /* Pods-testProg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testProg.release.xcconfig"; sourceTree = "<group>"; };
+		49EF0BFC5528C068D6218FE773AD5B04 /* menu-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button.png"; path = "SlideMenu/Source/Assets/menu-button.png"; sourceTree = "<group>"; };
 		5777254D7C37DEAB205445258A853EF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		58A9084A1BDD6AEDF085C57A0AD1B0C9 /* iOS-Slide-Menu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Slide-Menu.xcconfig"; sourceTree = "<group>"; };
 		61E8148492EC0EDE2A2A90E578E5CECE /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimator.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		6859A74E339D2F1622908D6E675EAD09 /* menu-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button@2x.png"; path = "SlideMenu/Source/Assets/menu-button@2x.png"; sourceTree = "<group>"; };
 		6B9114B3C9FAA28A2005D9EED6E90747 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		7CA07474ED5654150D4286E7832F4945 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		7CF6D3E14803E9D2F7AE677C6C3F5C87 /* iOS-Slide-Menu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Slide-Menu-dummy.m"; sourceTree = "<group>"; };
 		7E2512BE22CCFE3385BBEFE07E7B8827 /* Pods-testProg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testProg-dummy.m"; sourceTree = "<group>"; };
+		82684F2FD5EBD39C264F98691F3BCE12 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		8BE2F077D64A0F23309490CCA1DC8A18 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
-		8C9C31C13756D722028919AA97EEFB6B /* iOS-Slide-Menu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Slide-Menu.xcconfig"; sourceTree = "<group>"; };
 		8CAC4460A6690BD18904FACD962EED08 /* iOS-Slide-Menu-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Slide-Menu-Private.xcconfig"; sourceTree = "<group>"; };
 		99E105DCCC95A927FD58E1D4B447E497 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
-		A3728391F552881928F39B2D03CC1C8F /* iOS-Slide-Menu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Slide-Menu-prefix.pch"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C08B05A665079A24E8ADE0CC198E2132 /* Pods-testProg-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testProg-acknowledgements.plist"; sourceTree = "<group>"; };
-		C27B139FFC954E4EE43DB54345B438D1 /* menu-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button.png"; path = "SlideMenu/Source/Assets/menu-button.png"; sourceTree = "<group>"; };
 		C88E606DE05DBD875DC0BAA91116B7EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C8B55B99B61BBD5D12BC64F46F20069E /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScaleAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
 		D7429E80DC43040375C1AD7E9043500D /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScale.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
 		F0F023CE0977E4E5E035B68E635325A8 /* SlideNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = SlideMenu/Source/SlideNavigationController.h; sourceTree = "<group>"; };
 		F21A7A6F238B98AB0BC40F962FD6BF87 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScaleAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
 		F8C39BC9CAB0206D0584EC819B7B4187 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlide.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
-		FC64241A6B7322C51E12B2D70E02DCD8 /* menu-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button@2x.png"; path = "SlideMenu/Source/Assets/menu-button@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,24 +93,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EA9F3AAE44A27DE8404AC8EFB8CA7E2 /* Pods */ = {
+		2D938CA81794563A504B5A694629E45E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7B4ED40BD5E8B2AD8DBBC2DAC8CFEA51 /* iOS-Slide-Menu */,
+				49EF0BFC5528C068D6218FE773AD5B04 /* menu-button.png */,
+				6859A74E339D2F1622908D6E675EAD09 /* menu-button@2x.png */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3F23BEA5B62E856DE279C7589DDC3B88 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C9C31C13756D722028919AA97EEFB6B /* iOS-Slide-Menu.xcconfig */,
-				8CAC4460A6690BD18904FACD962EED08 /* iOS-Slide-Menu-Private.xcconfig */,
-				7CF6D3E14803E9D2F7AE677C6C3F5C87 /* iOS-Slide-Menu-dummy.m */,
-				A3728391F552881928F39B2D03CC1C8F /* iOS-Slide-Menu-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/iOS-Slide-Menu";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -127,26 +118,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7B4ED40BD5E8B2AD8DBBC2DAC8CFEA51 /* iOS-Slide-Menu */ = {
+		79D62E5D21B5D02FE4CA9E3D9AAF065D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				61E8148492EC0EDE2A2A90E578E5CECE /* SlideNavigationContorllerAnimator.h */,
-				21AE23780DB67414D117C72E5F9612C3 /* SlideNavigationContorllerAnimatorFade.h */,
-				6B9114B3C9FAA28A2005D9EED6E90747 /* SlideNavigationContorllerAnimatorFade.m */,
-				D7429E80DC43040375C1AD7E9043500D /* SlideNavigationContorllerAnimatorScale.h */,
-				03A55BDC75FAF27CE4E251C1FEB462F8 /* SlideNavigationContorllerAnimatorScale.m */,
-				C8B55B99B61BBD5D12BC64F46F20069E /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
-				F21A7A6F238B98AB0BC40F962FD6BF87 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
-				F8C39BC9CAB0206D0584EC819B7B4187 /* SlideNavigationContorllerAnimatorSlide.h */,
-				99E105DCCC95A927FD58E1D4B447E497 /* SlideNavigationContorllerAnimatorSlide.m */,
-				3195ED90DE5CE381E749EDA9A0C1C981 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
-				8BE2F077D64A0F23309490CCA1DC8A18 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
-				F0F023CE0977E4E5E035B68E635325A8 /* SlideNavigationController.h */,
-				2B5B252CD8AB0DEFC3F1EBFFFBCE83BB /* SlideNavigationController.m */,
-				C9411BE60172AACDA2520540EDABC8FA /* Resources */,
-				3F23BEA5B62E856DE279C7589DDC3B88 /* Support Files */,
+				82684F2FD5EBD39C264F98691F3BCE12 /* GoogleMaps.framework */,
 			);
-			path = "iOS-Slide-Menu";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A07E4A33B560B73A4CA935F0BAB0504 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CA07474ED5654150D4286E7832F4945 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -154,19 +139,40 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				2EA9F3AAE44A27DE8404AC8EFB8CA7E2 /* Pods */,
+				7FFA0910A4774B4F71DDF3BAE6FF46D6 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				488499975303FA73196B8D11F0AFBC29 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		C9411BE60172AACDA2520540EDABC8FA /* Resources */ = {
+		7FFA0910A4774B4F71DDF3BAE6FF46D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C27B139FFC954E4EE43DB54345B438D1 /* menu-button.png */,
-				FC64241A6B7322C51E12B2D70E02DCD8 /* menu-button@2x.png */,
+				BE45DB84F26731E422EC71B4A5A122E2 /* GoogleMaps */,
+				EB5F49063BE0E5E402C88E8C31293B8A /* iOS-Slide-Menu */,
 			);
-			name = Resources;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B94FD8D67B2B45FA7AF574734448AC1F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58A9084A1BDD6AEDF085C57A0AD1B0C9 /* iOS-Slide-Menu.xcconfig */,
+				8CAC4460A6690BD18904FACD962EED08 /* iOS-Slide-Menu-Private.xcconfig */,
+				7CF6D3E14803E9D2F7AE677C6C3F5C87 /* iOS-Slide-Menu-dummy.m */,
+				1B4B1EBC714A5A77F0E96D07BED8305A /* iOS-Slide-Menu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOS-Slide-Menu";
+			sourceTree = "<group>";
+		};
+		BE45DB84F26731E422EC71B4A5A122E2 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				79D62E5D21B5D02FE4CA9E3D9AAF065D /* Frameworks */,
+				7A07E4A33B560B73A4CA935F0BAB0504 /* Resources */,
+			);
+			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
@@ -185,6 +191,28 @@
 				5777254D7C37DEAB205445258A853EF5 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB5F49063BE0E5E402C88E8C31293B8A /* iOS-Slide-Menu */ = {
+			isa = PBXGroup;
+			children = (
+				61E8148492EC0EDE2A2A90E578E5CECE /* SlideNavigationContorllerAnimator.h */,
+				21AE23780DB67414D117C72E5F9612C3 /* SlideNavigationContorllerAnimatorFade.h */,
+				6B9114B3C9FAA28A2005D9EED6E90747 /* SlideNavigationContorllerAnimatorFade.m */,
+				D7429E80DC43040375C1AD7E9043500D /* SlideNavigationContorllerAnimatorScale.h */,
+				03A55BDC75FAF27CE4E251C1FEB462F8 /* SlideNavigationContorllerAnimatorScale.m */,
+				C8B55B99B61BBD5D12BC64F46F20069E /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				F21A7A6F238B98AB0BC40F962FD6BF87 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				F8C39BC9CAB0206D0584EC819B7B4187 /* SlideNavigationContorllerAnimatorSlide.h */,
+				99E105DCCC95A927FD58E1D4B447E497 /* SlideNavigationContorllerAnimatorSlide.m */,
+				3195ED90DE5CE381E749EDA9A0C1C981 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				8BE2F077D64A0F23309490CCA1DC8A18 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+				F0F023CE0977E4E5E035B68E635325A8 /* SlideNavigationController.h */,
+				2B5B252CD8AB0DEFC3F1EBFFFBCE83BB /* SlideNavigationController.m */,
+				2D938CA81794563A504B5A694629E45E /* Resources */,
+				B94FD8D67B2B45FA7AF574734448AC1F /* Support Files */,
+			);
+			path = "iOS-Slide-Menu";
 			sourceTree = "<group>";
 		};
 		F8D0AD600D9AF0DAADFCF449254DDFD1 /* Pods-testProg */ = {
@@ -248,7 +276,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				ECFA2814058DE817F4C4A77DEBB2D7D6 /* PBXTargetDependency */,
+				5A41B747C3BC0847CC9FB470629F0F5A /* PBXTargetDependency */,
 			);
 			name = "Pods-testProg";
 			productName = "Pods-testProg";
@@ -308,11 +336,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ECFA2814058DE817F4C4A77DEBB2D7D6 /* PBXTargetDependency */ = {
+		5A41B747C3BC0847CC9FB470629F0F5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "iOS-Slide-Menu";
 			target = 01C8647DD33AEB6D8706D1A9DB17FA18 /* iOS-Slide-Menu */;
-			targetProxy = AA68ABF0A6E5640ACD8D95E840AAF5CE /* PBXContainerItemProxy */;
+			targetProxy = F0F204151DCA3564861B956309C94557 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
