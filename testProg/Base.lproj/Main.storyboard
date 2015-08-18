@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYn-bn-7J1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYn-bn-7J1">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Slide Navigation Controller-->
@@ -18,7 +18,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k1q-LV-HpN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-662" y="282"/>
+            <point key="canvasLocation" x="-248" y="318"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -100,29 +100,12 @@
                     <connections>
                         <outlet property="logText" destination="7xp-Jk-PZf" id="4pr-1r-cWH"/>
                         <outlet property="passText" destination="5fx-BY-t8S" id="p9V-SY-Knx"/>
-                        <segue destination="kx6-VY-aZR" kind="modal" identifier="accept" id="25i-cZ-WxF"/>
+                        <segue destination="qaf-32-VBi" kind="push" identifier="kek" id="clR-me-PlQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="234" y="318"/>
-        </scene>
-        <!--Slide Navigation Controller-->
-        <scene sceneID="eDb-xu-4k9">
-            <objects>
-                <navigationController id="kx6-VY-aZR" customClass="SlideNavigationController" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="99Q-GE-ygo"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3iE-Qy-uTj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="qaf-32-VBi" kind="relationship" relationship="rootViewController" id="QuL-hZ-2xB"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QZG-gr-WXC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="700" y="313"/>
+            <point key="canvasLocation" x="262" y="318"/>
         </scene>
         <!--Left Menu View View Controller-->
         <scene sceneID="mJO-Oa-POk">
@@ -169,7 +152,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A0a-iG-y5Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1072" y="574"/>
+            <point key="canvasLocation" x="700" y="992"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="j5t-Z0-dTq">
@@ -182,6 +165,14 @@
                     <view key="view" contentMode="scaleToFill" id="VQY-IY-Txw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jj0-TN-45w">
+                                <rect key="frame" x="107" y="269" width="106" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="LDK-qG-Mgo">
@@ -201,12 +192,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bcq-yj-mrN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1599" y="265"/>
+            <point key="canvasLocation" x="885" y="318"/>
         </scene>
         <!--Google Maps Api-->
         <scene sceneID="um4-Se-2DA">
             <objects>
-                <viewController id="dVy-yW-BMY" customClass="GoogleMapsApi" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mapVC" id="dVy-yW-BMY" customClass="GoogleMapsApi" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2gD-ET-FKZ"/>
                         <viewControllerLayoutGuide type="bottom" id="nh2-Zz-XpG"/>

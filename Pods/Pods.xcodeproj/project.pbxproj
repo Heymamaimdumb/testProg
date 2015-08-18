@@ -1,518 +1,1940 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		02402CE5C0AEAD3FCEBCEB276F920A8C /* SlideNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F023CE0977E4E5E035B68E635325A8 /* SlideNavigationController.h */; };
-		19BE629742FA3643956937B36B6D46E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5777254D7C37DEAB205445258A853EF5 /* UIKit.framework */; };
-		1FA71554E5D25930971BE4CF4F7AA8CB /* SlideNavigationContorllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E8148492EC0EDE2A2A90E578E5CECE /* SlideNavigationContorllerAnimator.h */; };
-		20D669829C87946EE55F617C2C445244 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE2F077D64A0F23309490CCA1DC8A18 /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
-		262087BDDBCBDD9576A9CDD0C823D850 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B252CD8AB0DEFC3F1EBFFFBCE83BB /* SlideNavigationController.m */; };
-		2A421D855B2356BBADC5AE3A7F6E5547 /* Pods-testProg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2512BE22CCFE3385BBEFE07E7B8827 /* Pods-testProg-dummy.m */; };
-		60763B0D8049ABC239284FF4B22EC6D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88E606DE05DBD875DC0BAA91116B7EF /* Foundation.framework */; };
-		707E36EE583CC68CFD873390D96D8E53 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9114B3C9FAA28A2005D9EED6E90747 /* SlideNavigationContorllerAnimatorFade.m */; };
-		96310B65BD4D2AA7990B7E6BCB1C7A34 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E105DCCC95A927FD58E1D4B447E497 /* SlideNavigationContorllerAnimatorSlide.m */; };
-		A38587CBFA7898FEB662DF99863CF4E7 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = F21A7A6F238B98AB0BC40F962FD6BF87 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
-		B7157382E7EC5E9EACB56991F20DD978 /* SlideNavigationContorllerAnimatorScale.h in Headers */ = {isa = PBXBuildFile; fileRef = D7429E80DC43040375C1AD7E9043500D /* SlideNavigationContorllerAnimatorScale.h */; };
-		CCC49BD264200ECDE18B3F99D079E3DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88E606DE05DBD875DC0BAA91116B7EF /* Foundation.framework */; };
-		CDD98396B35D12F4B54BB341CB1DE94F /* iOS-Slide-Menu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6D3E14803E9D2F7AE677C6C3F5C87 /* iOS-Slide-Menu-dummy.m */; };
-		D8D80CD79D89B8E9514952A89889A56F /* SlideNavigationContorllerAnimatorSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C39BC9CAB0206D0584EC819B7B4187 /* SlideNavigationContorllerAnimatorSlide.h */; };
-		DB893B8008023CD0B0CBD8926C267E9B /* SlideNavigationContorllerAnimatorScaleAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B55B99B61BBD5D12BC64F46F20069E /* SlideNavigationContorllerAnimatorScaleAndFade.h */; };
-		DE160B421CACB72CEB23E6A3BEBF95DC /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A55BDC75FAF27CE4E251C1FEB462F8 /* SlideNavigationContorllerAnimatorScale.m */; };
-		E0F9E64B955490C19D17794C34433CE2 /* SlideNavigationContorllerAnimatorSlideAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 3195ED90DE5CE381E749EDA9A0C1C981 /* SlideNavigationContorllerAnimatorSlideAndFade.h */; };
-		E1E6888365EB3DBFD4FA95955377650E /* SlideNavigationContorllerAnimatorFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AE23780DB67414D117C72E5F9612C3 /* SlideNavigationContorllerAnimatorFade.h */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F0F204151DCA3564861B956309C94557 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01C8647DD33AEB6D8706D1A9DB17FA18;
-			remoteInfo = "iOS-Slide-Menu";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		00F11872AB9DCC5C3CDFB332FCE8108E /* Pods-testProg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testProg.debug.xcconfig"; sourceTree = "<group>"; };
-		03A55BDC75FAF27CE4E251C1FEB462F8 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScale.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
-		0BD88315BA4B5C5A56D53ADEF172C90E /* Pods-testProg-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testProg-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1B4B1EBC714A5A77F0E96D07BED8305A /* iOS-Slide-Menu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Slide-Menu-prefix.pch"; sourceTree = "<group>"; };
-		21AE23780DB67414D117C72E5F9612C3 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
-		23777734F2D09122396C43E872586572 /* libPods-testProg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testProg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B5B252CD8AB0DEFC3F1EBFFFBCE83BB /* SlideNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = SlideMenu/Source/SlideNavigationController.m; sourceTree = "<group>"; };
-		3195ED90DE5CE381E749EDA9A0C1C981 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlideAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
-		38AE939E7D142367DE56162C3810E6CC /* Pods-testProg-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testProg-resources.sh"; sourceTree = "<group>"; };
-		3BBF0E62F6723E615327BB5FCF1B0F95 /* libiOS-Slide-Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-Slide-Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		471F5FD0CC966FCF4D3FE8D543DF8CE8 /* Pods-testProg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testProg.release.xcconfig"; sourceTree = "<group>"; };
-		49EF0BFC5528C068D6218FE773AD5B04 /* menu-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button.png"; path = "SlideMenu/Source/Assets/menu-button.png"; sourceTree = "<group>"; };
-		5777254D7C37DEAB205445258A853EF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		58A9084A1BDD6AEDF085C57A0AD1B0C9 /* iOS-Slide-Menu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Slide-Menu.xcconfig"; sourceTree = "<group>"; };
-		61E8148492EC0EDE2A2A90E578E5CECE /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimator.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
-		6859A74E339D2F1622908D6E675EAD09 /* menu-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button@2x.png"; path = "SlideMenu/Source/Assets/menu-button@2x.png"; sourceTree = "<group>"; };
-		6B9114B3C9FAA28A2005D9EED6E90747 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
-		7CA07474ED5654150D4286E7832F4945 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
-		7CF6D3E14803E9D2F7AE677C6C3F5C87 /* iOS-Slide-Menu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Slide-Menu-dummy.m"; sourceTree = "<group>"; };
-		7E2512BE22CCFE3385BBEFE07E7B8827 /* Pods-testProg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testProg-dummy.m"; sourceTree = "<group>"; };
-		82684F2FD5EBD39C264F98691F3BCE12 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
-		8BE2F077D64A0F23309490CCA1DC8A18 /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
-		8CAC4460A6690BD18904FACD962EED08 /* iOS-Slide-Menu-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Slide-Menu-Private.xcconfig"; sourceTree = "<group>"; };
-		99E105DCCC95A927FD58E1D4B447E497 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C08B05A665079A24E8ADE0CC198E2132 /* Pods-testProg-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testProg-acknowledgements.plist"; sourceTree = "<group>"; };
-		C88E606DE05DBD875DC0BAA91116B7EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C8B55B99B61BBD5D12BC64F46F20069E /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScaleAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
-		D7429E80DC43040375C1AD7E9043500D /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScale.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
-		F0F023CE0977E4E5E035B68E635325A8 /* SlideNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = SlideMenu/Source/SlideNavigationController.h; sourceTree = "<group>"; };
-		F21A7A6F238B98AB0BC40F962FD6BF87 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScaleAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
-		F8C39BC9CAB0206D0584EC819B7B4187 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlide.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		63F8A7E4F33E969C0FD4E12887A9B2F3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCC49BD264200ECDE18B3F99D079E3DC /* Foundation.framework in Frameworks */,
-				19BE629742FA3643956937B36B6D46E3 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CF2CC65B6D4E7CB0DB2DC8BB22E9B3D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60763B0D8049ABC239284FF4B22EC6D7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		2D938CA81794563A504B5A694629E45E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				49EF0BFC5528C068D6218FE773AD5B04 /* menu-button.png */,
-				6859A74E339D2F1622908D6E675EAD09 /* menu-button@2x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D0FB9306D21AF23A056944AE037CBFFF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		488499975303FA73196B8D11F0AFBC29 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8D0AD600D9AF0DAADFCF449254DDFD1 /* Pods-testProg */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		79D62E5D21B5D02FE4CA9E3D9AAF065D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				82684F2FD5EBD39C264F98691F3BCE12 /* GoogleMaps.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7A07E4A33B560B73A4CA935F0BAB0504 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7CA07474ED5654150D4286E7832F4945 /* GoogleMaps.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				7FFA0910A4774B4F71DDF3BAE6FF46D6 /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				488499975303FA73196B8D11F0AFBC29 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		7FFA0910A4774B4F71DDF3BAE6FF46D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BE45DB84F26731E422EC71B4A5A122E2 /* GoogleMaps */,
-				EB5F49063BE0E5E402C88E8C31293B8A /* iOS-Slide-Menu */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B94FD8D67B2B45FA7AF574734448AC1F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				58A9084A1BDD6AEDF085C57A0AD1B0C9 /* iOS-Slide-Menu.xcconfig */,
-				8CAC4460A6690BD18904FACD962EED08 /* iOS-Slide-Menu-Private.xcconfig */,
-				7CF6D3E14803E9D2F7AE677C6C3F5C87 /* iOS-Slide-Menu-dummy.m */,
-				1B4B1EBC714A5A77F0E96D07BED8305A /* iOS-Slide-Menu-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/iOS-Slide-Menu";
-			sourceTree = "<group>";
-		};
-		BE45DB84F26731E422EC71B4A5A122E2 /* GoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				79D62E5D21B5D02FE4CA9E3D9AAF065D /* Frameworks */,
-				7A07E4A33B560B73A4CA935F0BAB0504 /* Resources */,
-			);
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				23777734F2D09122396C43E872586572 /* libPods-testProg.a */,
-				3BBF0E62F6723E615327BB5FCF1B0F95 /* libiOS-Slide-Menu.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D0FB9306D21AF23A056944AE037CBFFF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C88E606DE05DBD875DC0BAA91116B7EF /* Foundation.framework */,
-				5777254D7C37DEAB205445258A853EF5 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		EB5F49063BE0E5E402C88E8C31293B8A /* iOS-Slide-Menu */ = {
-			isa = PBXGroup;
-			children = (
-				61E8148492EC0EDE2A2A90E578E5CECE /* SlideNavigationContorllerAnimator.h */,
-				21AE23780DB67414D117C72E5F9612C3 /* SlideNavigationContorllerAnimatorFade.h */,
-				6B9114B3C9FAA28A2005D9EED6E90747 /* SlideNavigationContorllerAnimatorFade.m */,
-				D7429E80DC43040375C1AD7E9043500D /* SlideNavigationContorllerAnimatorScale.h */,
-				03A55BDC75FAF27CE4E251C1FEB462F8 /* SlideNavigationContorllerAnimatorScale.m */,
-				C8B55B99B61BBD5D12BC64F46F20069E /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
-				F21A7A6F238B98AB0BC40F962FD6BF87 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
-				F8C39BC9CAB0206D0584EC819B7B4187 /* SlideNavigationContorllerAnimatorSlide.h */,
-				99E105DCCC95A927FD58E1D4B447E497 /* SlideNavigationContorllerAnimatorSlide.m */,
-				3195ED90DE5CE381E749EDA9A0C1C981 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
-				8BE2F077D64A0F23309490CCA1DC8A18 /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
-				F0F023CE0977E4E5E035B68E635325A8 /* SlideNavigationController.h */,
-				2B5B252CD8AB0DEFC3F1EBFFFBCE83BB /* SlideNavigationController.m */,
-				2D938CA81794563A504B5A694629E45E /* Resources */,
-				B94FD8D67B2B45FA7AF574734448AC1F /* Support Files */,
-			);
-			path = "iOS-Slide-Menu";
-			sourceTree = "<group>";
-		};
-		F8D0AD600D9AF0DAADFCF449254DDFD1 /* Pods-testProg */ = {
-			isa = PBXGroup;
-			children = (
-				0BD88315BA4B5C5A56D53ADEF172C90E /* Pods-testProg-acknowledgements.markdown */,
-				C08B05A665079A24E8ADE0CC198E2132 /* Pods-testProg-acknowledgements.plist */,
-				7E2512BE22CCFE3385BBEFE07E7B8827 /* Pods-testProg-dummy.m */,
-				38AE939E7D142367DE56162C3810E6CC /* Pods-testProg-resources.sh */,
-				00F11872AB9DCC5C3CDFB332FCE8108E /* Pods-testProg.debug.xcconfig */,
-				471F5FD0CC966FCF4D3FE8D543DF8CE8 /* Pods-testProg.release.xcconfig */,
-			);
-			name = "Pods-testProg";
-			path = "Target Support Files/Pods-testProg";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		B01A24865E1FE5FA8BB575309342B18D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1FA71554E5D25930971BE4CF4F7AA8CB /* SlideNavigationContorllerAnimator.h in Headers */,
-				E1E6888365EB3DBFD4FA95955377650E /* SlideNavigationContorllerAnimatorFade.h in Headers */,
-				B7157382E7EC5E9EACB56991F20DD978 /* SlideNavigationContorllerAnimatorScale.h in Headers */,
-				DB893B8008023CD0B0CBD8926C267E9B /* SlideNavigationContorllerAnimatorScaleAndFade.h in Headers */,
-				D8D80CD79D89B8E9514952A89889A56F /* SlideNavigationContorllerAnimatorSlide.h in Headers */,
-				E0F9E64B955490C19D17794C34433CE2 /* SlideNavigationContorllerAnimatorSlideAndFade.h in Headers */,
-				02402CE5C0AEAD3FCEBCEB276F920A8C /* SlideNavigationController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		01C8647DD33AEB6D8706D1A9DB17FA18 /* iOS-Slide-Menu */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28B19BF9B02848DB514792DA183EE124 /* Build configuration list for PBXNativeTarget "iOS-Slide-Menu" */;
-			buildPhases = (
-				ABC5A3A5E2CB7C54768ACD3138C6F56D /* Sources */,
-				63F8A7E4F33E969C0FD4E12887A9B2F3 /* Frameworks */,
-				B01A24865E1FE5FA8BB575309342B18D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "iOS-Slide-Menu";
-			productName = "iOS-Slide-Menu";
-			productReference = 3BBF0E62F6723E615327BB5FCF1B0F95 /* libiOS-Slide-Menu.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7831AB38782F29D7A6AC2DB5EA6F38D8 /* Pods-testProg */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B5B80443EEAF034D5A015E7C190BFE12 /* Build configuration list for PBXNativeTarget "Pods-testProg" */;
-			buildPhases = (
-				45C0B5DF7B54C1F36CAD79B7F20FCCE1 /* Sources */,
-				8CF2CC65B6D4E7CB0DB2DC8BB22E9B3D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A41B747C3BC0847CC9FB470629F0F5A /* PBXTargetDependency */,
-			);
-			name = "Pods-testProg";
-			productName = "Pods-testProg";
-			productReference = 23777734F2D09122396C43E872586572 /* libPods-testProg.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				7831AB38782F29D7A6AC2DB5EA6F38D8 /* Pods-testProg */,
-				01C8647DD33AEB6D8706D1A9DB17FA18 /* iOS-Slide-Menu */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		45C0B5DF7B54C1F36CAD79B7F20FCCE1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2A421D855B2356BBADC5AE3A7F6E5547 /* Pods-testProg-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABC5A3A5E2CB7C54768ACD3138C6F56D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				707E36EE583CC68CFD873390D96D8E53 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
-				DE160B421CACB72CEB23E6A3BEBF95DC /* SlideNavigationContorllerAnimatorScale.m in Sources */,
-				A38587CBFA7898FEB662DF99863CF4E7 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
-				96310B65BD4D2AA7990B7E6BCB1C7A34 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
-				20D669829C87946EE55F617C2C445244 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
-				262087BDDBCBDD9576A9CDD0C823D850 /* SlideNavigationController.m in Sources */,
-				CDD98396B35D12F4B54BB341CB1DE94F /* iOS-Slide-Menu-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5A41B747C3BC0847CC9FB470629F0F5A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "iOS-Slide-Menu";
-			target = 01C8647DD33AEB6D8706D1A9DB17FA18 /* iOS-Slide-Menu */;
-			targetProxy = F0F204151DCA3564861B956309C94557 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		08DC8D8341D922316B62B805596B30D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CAC4460A6690BD18904FACD962EED08 /* iOS-Slide-Menu-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/iOS-Slide-Menu/iOS-Slide-Menu-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		0DA45E7ED22674B0917E3B8CC1F26517 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 471F5FD0CC966FCF4D3FE8D543DF8CE8 /* Pods-testProg.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		5B827A958839FFBD44FD92F8BD87CB21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CAC4460A6690BD18904FACD962EED08 /* iOS-Slide-Menu-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/iOS-Slide-Menu/iOS-Slide-Menu-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		9EB645C612834738B99727720210C23E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		A52B7526E0C8D61D22ED4EBA1B1E93E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00F11872AB9DCC5C3CDFB332FCE8108E /* Pods-testProg.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		E39CD1E764776175CB82EEC82A6C9948 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		28B19BF9B02848DB514792DA183EE124 /* Build configuration list for PBXNativeTarget "iOS-Slide-Menu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				08DC8D8341D922316B62B805596B30D6 /* Debug */,
-				5B827A958839FFBD44FD92F8BD87CB21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9EB645C612834738B99727720210C23E /* Debug */,
-				E39CD1E764776175CB82EEC82A6C9948 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B5B80443EEAF034D5A015E7C190BFE12 /* Build configuration list for PBXNativeTarget "Pods-testProg" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A52B7526E0C8D61D22ED4EBA1B1E93E4 /* Debug */,
-				0DA45E7ED22674B0917E3B8CC1F26517 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0680083F360976D9070823CB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F772CDF7DFBF1A4AB9E4EF95</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>06C1C0117471C40766ED84F2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8FD6E84D12D5FEB1D96A8FD7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>06FF80FC349542228C861C74</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B7D7E039F33AA740AA82B43A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>07DD8E6204DB5C7FC2923817</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>0914037CA7D3F6083CD95389</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreLocation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>0917D353D0CF3D68D129DA58</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>2446546D448D063ECDDFC359</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>091AD150049E2B5E5C0F224F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>36E00D263EAB373DB327E8DE</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>36B34BE3FE6D85FCA4AC8D2D</string>
+			<key>remoteInfo</key>
+			<string>Pods-testProg-iOS-Slide-Menu</string>
+		</dict>
+		<key>0C96E8451C0A37AE02A90281</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1284F93BAB2AF4B8E02B3766</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0DC80942FBFDC47D97E6344A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>AF6EB99FB286692E12980391</string>
+				<string>ED030E7476E658B32945DA64</string>
+				<string>17B767F5E653C1F3C5208A6A</string>
+				<string>CBE6B9818C63AE6AE8C38846</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-testProg-GoogleMaps</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0E30EE404D12E61C9E7B7C8D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>11712CDC43C66850BDC30225</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SystemConfiguration.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>1284F93BAB2AF4B8E02B3766</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimatorSlideAndFade.m</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12A4560B234A2220BA8B51DD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SlideNavigationController.m</string>
+			<key>path</key>
+			<string>SlideMenu/Source/SlideNavigationController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12D37502A881E8EB2CADABFD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimatorSlide.m</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>132595F8C985ACCA5CC42C13</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-testProg-iOS-Slide-Menu-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>147D74912C301454A4831D35</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>0917D353D0CF3D68D129DA58</string>
+				<string>4831F7D59B1F246959519EDB</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>171FCF1A11F98A2B9EF4BDB9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-testProg-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>17B767F5E653C1F3C5208A6A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-testProg-GoogleMaps-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18855C42E49A5D3460AE6EEB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4C3A9B9D7B74F33661556A12</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1892950979E2BCDBEC8E46DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>686B818DFBA2812A53FD5D57</string>
+				<string>9381D07116677A777F970275</string>
+				<string>8F3E72FBD4D89D4E9514D50B</string>
+				<string>53E5DCCDE7791169C2CB87F6</string>
+				<string>81F022BA2DB4FE7F96303633</string>
+				<string>F33590961102F28F1F064149</string>
+				<string>06FF80FC349542228C861C74</string>
+				<string>F4B7902D9036706EFC2E83D2</string>
+				<string>EFC3ACC7A5013277A2BCFFFB</string>
+				<string>3846F68390D25F7463372682</string>
+				<string>AA86B622BEF10388ECDECAB3</string>
+				<string>F84BB34A542E916A15F4D8D9</string>
+				<string>5E3C545FFC01AB6F29E6D4E8</string>
+				<string>41CF690E95BEB6284053F0C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>190201DF60E288FBD80143CC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-testProg-iOS-Slide-Menu-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1AB29FB226ED4AB45835CEC9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-testProg-iOS-Slide-Menu.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2446546D448D063ECDDFC359</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-testProg.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D4470AB3C96C88C63AAE4BA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-testProg-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30A21A299FA91A7F72F5FC08</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreData.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>35433DB60EB12C352B85172D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-testProg-iOS-Slide-Menu</string>
+			<key>target</key>
+			<string>36B34BE3FE6D85FCA4AC8D2D</string>
+			<key>targetProxy</key>
+			<string>091AD150049E2B5E5C0F224F</string>
+		</dict>
+		<key>3683B8647BFAE2CB9EE8DEB6</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>40C4EEDD989D0ACF21BB5568</string>
+				<string>4D156E65B80ABD4E518F389C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>36B34BE3FE6D85FCA4AC8D2D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6C830549C255DD2F51C527FF</string>
+			<key>buildPhases</key>
+			<array>
+				<string>99C8791BA48E41E561163BD0</string>
+				<string>892DE86401F0D4746B3EA61A</string>
+				<string>B79BBA4F7E4636BD4F76D794</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-testProg-iOS-Slide-Menu</string>
+			<key>productName</key>
+			<string>Pods-testProg-iOS-Slide-Menu</string>
+			<key>productReference</key>
+			<string>F2E6152E85F42E60723540E6</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>36E00D263EAB373DB327E8DE</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>E43EC5D468095D2E5DAA3739</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>4F4D7BFEAE3D627E0E6A1DE4</string>
+			<key>productRefGroup</key>
+			<string>59D8A4C4E109E45D583E9D4F</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>3E73600E4505CF198AA674B2</string>
+				<string>905851AC7BC39103E40D2E40</string>
+				<string>36B34BE3FE6D85FCA4AC8D2D</string>
+			</array>
+		</dict>
+		<key>3846F68390D25F7463372682</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DFB908727C5874C8856EE153</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3C73F61C994C0E7ACC73F24E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>name</key>
+			<string>GoogleMaps.bundle</string>
+			<key>path</key>
+			<string>Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3DD8B2D1B78B9B00412C0D62</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F320B19BD381E1C6B6613D91</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3DF78EB627432B8FCECB117D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimatorScale.h</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3E73600E4505CF198AA674B2</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>147D74912C301454A4831D35</string>
+			<key>buildPhases</key>
+			<array>
+				<string>6AF4758DB93C86FBEFBFD5E9</string>
+				<string>A7B10221E17F6C51C54EDB72</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>F75E3877F6B4A8E2BA0CEE0B</string>
+				<string>35433DB60EB12C352B85172D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-testProg</string>
+			<key>productName</key>
+			<string>Pods-testProg</string>
+			<key>productReference</key>
+			<string>4035404DA63914402B46FE1A</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>3ECD32EF78F94248B236A96F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A75A50918B2DB27E8DF6002C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-testProg-iOS-Slide-Menu/Pods-testProg-iOS-Slide-Menu-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>4035404DA63914402B46FE1A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-testProg.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>40C4EEDD989D0ACF21BB5568</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>ED030E7476E658B32945DA64</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-testProg-GoogleMaps/Pods-testProg-GoogleMaps-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>41CF690E95BEB6284053F0C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>11712CDC43C66850BDC30225</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>431F1DC1AA97E767F5BD8E9F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3DF78EB627432B8FCECB117D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>442C2E526731ACFB0BE043B6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8AD0BE74A980F8F0A5FDC30</string>
+				<string>8327615FBCC0582619821FC2</string>
+				<string>0DC80942FBFDC47D97E6344A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>GoogleMaps</string>
+			<key>path</key>
+			<string>GoogleMaps</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44335587E1A0817BC36B1D7C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>778BA9055916A8057ACA4E98</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4831F7D59B1F246959519EDB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>93CB3DD108B291F0807374D5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>4A357B17E534C8EA60B304EC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F898541661B148820514EFA2</string>
+				<string>F586881FD936EDA1F1874975</string>
+				<string>7AB50EF7ED6D540F0CFA6C4A</string>
+				<string>30A21A299FA91A7F72F5FC08</string>
+				<string>B180E9A7F9022FB5B3662EBD</string>
+				<string>0914037CA7D3F6083CD95389</string>
+				<string>B7D7E039F33AA740AA82B43A</string>
+				<string>8FD6E84D12D5FEB1D96A8FD7</string>
+				<string>C44A91ECAF83F416A7469B8E</string>
+				<string>DFB908727C5874C8856EE153</string>
+				<string>8CD0F34B1D6AC358904EDC77</string>
+				<string>A8EDB0E9AD60D033771B0AFD</string>
+				<string>9274C90012308BA4FFCF49CD</string>
+				<string>11712CDC43C66850BDC30225</string>
+				<string>0E30EE404D12E61C9E7B7C8D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4A55069B663D296272F02525</key>
+		<dict>
+			<key>fileRef</key>
+			<string>51C455DC344528BAEC4A1824</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4C3A9B9D7B74F33661556A12</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F7D75E5A0963223CCF25078D</string>
+				<string>C68D619B8F4FA03836C260AF</string>
+				<string>5CAE3B89880422C023CD9E26</string>
+				<string>171FCF1A11F98A2B9EF4BDB9</string>
+				<string>2D4470AB3C96C88C63AAE4BA</string>
+				<string>2446546D448D063ECDDFC359</string>
+				<string>93CB3DD108B291F0807374D5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-testProg</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-testProg</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4CF13D0DF388E3771A34B464</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1AB29FB226ED4AB45835CEC9</string>
+				<string>A75A50918B2DB27E8DF6002C</string>
+				<string>132595F8C985ACCA5CC42C13</string>
+				<string>190201DF60E288FBD80143CC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Pods-testProg-iOS-Slide-Menu</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4D156E65B80ABD4E518F389C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>ED030E7476E658B32945DA64</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-testProg-GoogleMaps/Pods-testProg-GoogleMaps-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>4E7C9B2791BC29A37BC710E2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>menu-button@2x.png</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Assets/menu-button@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4F4D7BFEAE3D627E0E6A1DE4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>07DD8E6204DB5C7FC2923817</string>
+				<string>CA033C6FB14E9DFDED7E9A2B</string>
+				<string>803D6834FD6964679F89A649</string>
+				<string>59D8A4C4E109E45D583E9D4F</string>
+				<string>18855C42E49A5D3460AE6EEB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>51C455DC344528BAEC4A1824</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimatorScaleAndFade.h</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>53E5DCCDE7791169C2CB87F6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>30A21A299FA91A7F72F5FC08</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>55AE1B82E1ED3E3CC0A81D19</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A757175D098F8E07D40281DE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>56091785F015CBB7BBF27667</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A5164AF2B1F7010C280C1C1E</string>
+				<string>4E7C9B2791BC29A37BC710E2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>59D8A4C4E109E45D583E9D4F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4035404DA63914402B46FE1A</string>
+				<string>6A6DAE289DB4F606F6B71B63</string>
+				<string>F2E6152E85F42E60723540E6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5CAE3B89880422C023CD9E26</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-testProg-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5CBC93EE4352F34A70E8EA0B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5CAE3B89880422C023CD9E26</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5E0EA19A0EF38C44F61E529F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>36E00D263EAB373DB327E8DE</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>905851AC7BC39103E40D2E40</string>
+			<key>remoteInfo</key>
+			<string>Pods-testProg-GoogleMaps</string>
+		</dict>
+		<key>5E3C545FFC01AB6F29E6D4E8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9274C90012308BA4FFCF49CD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>601EF6BEB7AE83CDE3D2A093</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AB589751DADEA4D613C7713B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>686B818DFBA2812A53FD5D57</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F898541661B148820514EFA2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6A6DAE289DB4F606F6B71B63</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-testProg-GoogleMaps.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6AF4758DB93C86FBEFBFD5E9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5CBC93EE4352F34A70E8EA0B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6C830549C255DD2F51C527FF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>3ECD32EF78F94248B236A96F</string>
+				<string>C237278720147CC45998076D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>76F4B207F2136E184362C414</key>
+		<dict>
+			<key>fileRef</key>
+			<string>132595F8C985ACCA5CC42C13</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>778BA9055916A8057ACA4E98</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimatorFade.m</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>79D63858B405DCFB1997C854</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0E30EE404D12E61C9E7B7C8D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7AB50EF7ED6D540F0CFA6C4A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreBluetooth.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreBluetooth.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>7CBA5366CAAD7BA0E49C4767</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8FD6E84D12D5FEB1D96A8FD7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>803D6834FD6964679F89A649</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>442C2E526731ACFB0BE043B6</string>
+				<string>F7525FF8F840A3B192233149</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>81F022BA2DB4FE7F96303633</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B180E9A7F9022FB5B3662EBD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8327615FBCC0582619821FC2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3C73F61C994C0E7ACC73F24E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>843D06FA87BBACB07B84F7EA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EC38A5AB6BF80B70DFD1FF6C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>892DE86401F0D4746B3EA61A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7CBA5366CAAD7BA0E49C4767</string>
+				<string>79D63858B405DCFB1997C854</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8CD0F34B1D6AC358904EDC77</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>OpenGLES.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>8DD89F5AE45753C42C2894A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>12A4560B234A2220BA8B51DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8F3E72FBD4D89D4E9514D50B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7AB50EF7ED6D540F0CFA6C4A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8FD6E84D12D5FEB1D96A8FD7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>9050B1AEA8A15611CD07FF08</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFE313FD7CE22DA404426018</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>905851AC7BC39103E40D2E40</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>3683B8647BFAE2CB9EE8DEB6</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0680083F360976D9070823CB</string>
+				<string>1892950979E2BCDBEC8E46DD</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-testProg-GoogleMaps</string>
+			<key>productName</key>
+			<string>Pods-testProg-GoogleMaps</string>
+			<key>productReference</key>
+			<string>6A6DAE289DB4F606F6B71B63</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>9274C90012308BA4FFCF49CD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Security.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>9381D07116677A777F970275</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F586881FD936EDA1F1874975</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>93CB3DD108B291F0807374D5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-testProg.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>99C8791BA48E41E561163BD0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>76F4B207F2136E184362C414</string>
+				<string>44335587E1A0817BC36B1D7C</string>
+				<string>843D06FA87BBACB07B84F7EA</string>
+				<string>601EF6BEB7AE83CDE3D2A093</string>
+				<string>B0E355B711AE32AAE9ADDDC3</string>
+				<string>0C96E8451C0A37AE02A90281</string>
+				<string>8DD89F5AE45753C42C2894A8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9BAD4DDB2402EEAFE40A87BD</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>RELEASE=1</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>A5164AF2B1F7010C280C1C1E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>menu-button.png</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Assets/menu-button.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A757175D098F8E07D40281DE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SlideNavigationController.h</string>
+			<key>path</key>
+			<string>SlideMenu/Source/SlideNavigationController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A75A50918B2DB27E8DF6002C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-testProg-iOS-Slide-Menu-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A7B10221E17F6C51C54EDB72</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>06C1C0117471C40766ED84F2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A8EDB0E9AD60D033771B0AFD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>AA86B622BEF10388ECDECAB3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CD0F34B1D6AC358904EDC77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AB589751DADEA4D613C7713B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimatorScaleAndFade.m</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AF6EB99FB286692E12980391</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-testProg-GoogleMaps.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B0E355B711AE32AAE9ADDDC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>12D37502A881E8EB2CADABFD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B180E9A7F9022FB5B3662EBD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>B79BBA4F7E4636BD4F76D794</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E167974031E59F92A167239E</string>
+				<string>DE642E3C85104B5467270997</string>
+				<string>431F1DC1AA97E767F5BD8E9F</string>
+				<string>4A55069B663D296272F02525</string>
+				<string>9050B1AEA8A15611CD07FF08</string>
+				<string>3DD8B2D1B78B9B00412C0D62</string>
+				<string>55AE1B82E1ED3E3CC0A81D19</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B7D7E039F33AA740AA82B43A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreText.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>BFE313FD7CE22DA404426018</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimatorSlide.h</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C237278720147CC45998076D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A75A50918B2DB27E8DF6002C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-testProg-iOS-Slide-Menu/Pods-testProg-iOS-Slide-Menu-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C44A91ECAF83F416A7469B8E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GLKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/GLKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>C68D619B8F4FA03836C260AF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-testProg-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA033C6FB14E9DFDED7E9A2B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4A357B17E534C8EA60B304EC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CBE6B9818C63AE6AE8C38846</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-testProg-GoogleMaps-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D27ADF76A02FBF6FC6294D3F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimatorFade.h</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8AD0BE74A980F8F0A5FDC30</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F04DD34C3A1C28490A67893D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8BF8CA828928D86C6F37F5B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimator.h</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DE642E3C85104B5467270997</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D27ADF76A02FBF6FC6294D3F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DFB908727C5874C8856EE153</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>ImageIO.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>E167974031E59F92A167239E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D8BF8CA828928D86C6F37F5B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E43EC5D468095D2E5DAA3739</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>ED00319195DAC410226D2347</string>
+				<string>9BAD4DDB2402EEAFE40A87BD</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EC38A5AB6BF80B70DFD1FF6C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimatorScale.m</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ED00319195DAC410226D2347</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>ED030E7476E658B32945DA64</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-testProg-GoogleMaps-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EFC3ACC7A5013277A2BCFFFB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C44A91ECAF83F416A7469B8E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F04DD34C3A1C28490A67893D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>GoogleMaps.framework</string>
+			<key>path</key>
+			<string>Frameworks/GoogleMaps.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F2E6152E85F42E60723540E6</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-testProg-iOS-Slide-Menu.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>F320B19BD381E1C6B6613D91</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SlideNavigationContorllerAnimatorSlideAndFade.h</string>
+			<key>path</key>
+			<string>SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F33590961102F28F1F064149</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0914037CA7D3F6083CD95389</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F4B7902D9036706EFC2E83D2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8FD6E84D12D5FEB1D96A8FD7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F586881FD936EDA1F1874975</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Accelerate.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>F7525FF8F840A3B192233149</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D8BF8CA828928D86C6F37F5B</string>
+				<string>D27ADF76A02FBF6FC6294D3F</string>
+				<string>778BA9055916A8057ACA4E98</string>
+				<string>3DF78EB627432B8FCECB117D</string>
+				<string>EC38A5AB6BF80B70DFD1FF6C</string>
+				<string>51C455DC344528BAEC4A1824</string>
+				<string>AB589751DADEA4D613C7713B</string>
+				<string>BFE313FD7CE22DA404426018</string>
+				<string>12D37502A881E8EB2CADABFD</string>
+				<string>F320B19BD381E1C6B6613D91</string>
+				<string>1284F93BAB2AF4B8E02B3766</string>
+				<string>A757175D098F8E07D40281DE</string>
+				<string>12A4560B234A2220BA8B51DD</string>
+				<string>56091785F015CBB7BBF27667</string>
+				<string>4CF13D0DF388E3771A34B464</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS-Slide-Menu</string>
+			<key>path</key>
+			<string>iOS-Slide-Menu</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F75E3877F6B4A8E2BA0CEE0B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-testProg-GoogleMaps</string>
+			<key>target</key>
+			<string>905851AC7BC39103E40D2E40</string>
+			<key>targetProxy</key>
+			<string>5E0EA19A0EF38C44F61E529F</string>
+		</dict>
+		<key>F772CDF7DFBF1A4AB9E4EF95</key>
+		<dict>
+			<key>fileRef</key>
+			<string>17B767F5E653C1F3C5208A6A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F7D75E5A0963223CCF25078D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-testProg-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F84BB34A542E916A15F4D8D9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A8EDB0E9AD60D033771B0AFD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F898541661B148820514EFA2</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AVFoundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>36E00D263EAB373DB327E8DE</string>
+</dict>
+</plist>

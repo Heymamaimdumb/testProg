@@ -106,16 +106,9 @@
     switch (indexPath.row)
     {
         case 0:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"HomeViewController"];
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"mapVC"];
             break;
             
-        case 1:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"ProfileViewController"];
-            break;
-            
-        case 2:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"FriendsViewController"];
-            break;
             
         case 3:
             [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
