@@ -41,7 +41,7 @@
     if (self.logText.text.length>0 ){
     if (([self.logText.text  isEqual: log] && [self.passText.text isEqual:pass]))
     {
-        [self performSegueWithIdentifier:@"kek" sender:nil];
+        [self performSegueWithIdentifier:@"acceptLog" sender:nil];
     
     }
     else {UIAlertView *incorrectAlert = [[UIAlertView alloc]initWithTitle:@"Oops!" message:@"Your password or login is incorrect" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];

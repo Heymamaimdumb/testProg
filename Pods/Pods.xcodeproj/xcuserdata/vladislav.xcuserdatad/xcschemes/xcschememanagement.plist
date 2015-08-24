@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-testProg.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,7 +27,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7831AB38782F29D7A6AC2DB5EA6F38D8</key>
+		<key>0AE8C03EEDFCC5F7156BAADF4500E06E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D52A442814D1707E36260FE307CF8991</key>
 		<dict>
 			<key>primary</key>
 			<true/>

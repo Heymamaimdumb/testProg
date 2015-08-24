@@ -1,13 +1,16 @@
 PODS:
   - GoogleMaps (1.10.1)
   - iOS-Slide-Menu (1.4.5)
+  - MBProgressHUD (0.9.1)
 
 DEPENDENCIES:
   - GoogleMaps
   - iOS-Slide-Menu (= 1.4.5)
+  - MBProgressHUD (~> 0.9.1)
 
 SPEC CHECKSUMS:
   GoogleMaps: ebf08677f181d9c2dcdbd1721d206f02beccc9b1
   iOS-Slide-Menu: 8f4b77cd2e153275e0e7d5b9cfe94f2abc7e0594
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.38.2

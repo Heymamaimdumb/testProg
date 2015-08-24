@@ -75,11 +75,11 @@
     switch (indexPath.row)
     {
         case 0:
-            cell.textLabel.text = @"Home";
+            cell.textLabel.text = @"Maps";
             break;
             
         case 1:
-            cell.textLabel.text = @"Profile";
+            cell.textLabel.text = @"Web browser";
             break;
             
         case 2:
@@ -108,7 +108,9 @@
         case 0:
             vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"mapVC"];
             break;
-            
+        case 1:
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"webVC"];
+            break;
             
         case 3:
             [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
