@@ -83,7 +83,7 @@
             break;
             
         case 2:
-            cell.textLabel.text = @"Friends";
+            cell.textLabel.text = @"Picture";
             break;
             
         case 3:
@@ -110,6 +110,9 @@
             break;
         case 1:
             vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"webVC"];
+            break;
+        case 2:
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"pictureVC"];
             break;
             
         case 3:

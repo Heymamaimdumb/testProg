@@ -19,6 +19,8 @@
 		861C9A8A1B7888FE00479DD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861C9A891B7888FE00479DD5 /* Images.xcassets */; };
 		861C9A8D1B7888FE00479DD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 861C9A8B1B7888FE00479DD5 /* LaunchScreen.xib */; };
 		861C9A991B7888FE00479DD5 /* testProgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C9A981B7888FE00479DD5 /* testProgTests.m */; };
+		8628836B1B8C7C8700D6C57E /* hdCar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8628836A1B8C7C8700D6C57E /* hdCar.jpg */; };
+		862883711B8C7E4100D6C57E /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 862883701B8C7E4100D6C57E /* PictureViewController.m */; };
 		8699861D1B8B3CA0001810C0 /* UiWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8699861C1B8B3CA0001810C0 /* UiWebView.m */; };
 		86B3D5051B7CA22A00CA868F /* GoogleMapsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B3D5041B7CA22A00CA868F /* GoogleMapsApi.m */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,9 @@
 		861C9A921B7888FE00479DD5 /* testProgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861C9A971B7888FE00479DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		861C9A981B7888FE00479DD5 /* testProgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProgTests.m; sourceTree = "<group>"; };
+		8628836A1B8C7C8700D6C57E /* hdCar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hdCar.jpg; path = ../../../hdCar.jpg; sourceTree = "<group>"; };
+		8628836F1B8C7E4100D6C57E /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		862883701B8C7E4100D6C57E /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
 		8699861B1B8B3CA0001810C0 /* UiWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UiWebView.h; sourceTree = "<group>"; };
 		8699861C1B8B3CA0001810C0 /* UiWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UiWebView.m; sourceTree = "<group>"; };
 		86B3D5031B7CA22A00CA868F /* GoogleMapsApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsApi.h; sourceTree = "<group>"; };
@@ -92,6 +97,7 @@
 		86076B8A1B7B681C00A015D3 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				8628836A1B8C7C8700D6C57E /* hdCar.jpg */,
 				86076B861B7B675A00A015D3 /* leftMenu.jpg */,
 			);
 			name = images;
@@ -139,6 +145,8 @@
 				86076B811B7B3AE100A015D3 /* LeftMenuViewViewController.m */,
 				86B3D5031B7CA22A00CA868F /* GoogleMapsApi.h */,
 				86B3D5041B7CA22A00CA868F /* GoogleMapsApi.m */,
+				8628836F1B8C7E4100D6C57E /* PictureViewController.h */,
+				862883701B8C7E4100D6C57E /* PictureViewController.m */,
 			);
 			path = testProg;
 			sourceTree = "<group>";
@@ -253,6 +261,7 @@
 			files = (
 				861C9A881B7888FE00479DD5 /* Main.storyboard in Resources */,
 				861C9A8D1B7888FE00479DD5 /* LaunchScreen.xib in Resources */,
+				8628836B1B8C7C8700D6C57E /* hdCar.jpg in Resources */,
 				861C9A8A1B7888FE00479DD5 /* Images.xcassets in Resources */,
 				86076B871B7B675A00A015D3 /* leftMenu.jpg in Resources */,
 			);
@@ -309,6 +318,7 @@
 				861C9A7C1B7888FE00479DD5 /* main.m in Sources */,
 				86076B821B7B3AE100A015D3 /* LeftMenuViewViewController.m in Sources */,
 				8699861D1B8B3CA0001810C0 /* UiWebView.m in Sources */,
+				862883711B8C7E4100D6C57E /* PictureViewController.m in Sources */,
 				861C9A851B7888FE00479DD5 /* ViewController.m in Sources */,
 				86B3D5051B7CA22A00CA868F /* GoogleMapsApi.m in Sources */,
 				861C9A821B7888FE00479DD5 /* testProg.xcdatamodeld in Sources */,
